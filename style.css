@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    padding-bottom: 100px;
+   
+}
+
+
+ul{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+}
+
+.img-top{
+    height: 25px;
+}
+
+video{
+    width: 99vw;
+    min-width: 70vh;
+}
+
+.capa{
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+    width: 35%;
+    z-index: 3;
+}
+
+.capa-title{
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.capa-description{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.link-play{
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-info{
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 10PX 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img-carousel{
+    height: 150px;
+
+}
+
+#carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.title-carousel{
+    color: #ffffff;
+    font-size: 30px;
+}
